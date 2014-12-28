@@ -16,10 +16,10 @@ config = {
             client: 'mysql',
             connection: {
                 host     : '127.0.0.1',
-user     : 'root', 
-password : 'root', 
-database : 'ghost',
-charset  : 'utf8'
+                user     : 'root',
+                password : 'root',
+                database : 'ghost',
+                charset  : 'utf8'
             },
             debug: false
         },
@@ -56,13 +56,12 @@ charset  : 'utf8'
         database: {
             client: 'mysql',
             connection: {
-
-host     : '127.0.0.1',
-user     : 'root', 
-password : 'root', 
-database : 'ghost',
-charset  : 'utf8'                
-},
+                host     : '127.0.0.1',
+                user     : 'root',
+                password : 'root',
+                database : 'ghost',
+                charset  : 'utf8'
+            },
             debug: false
         },
         server: {
@@ -86,12 +85,11 @@ charset  : 'utf8'
         database: {
             client: 'mysql',
             connection: {
-
-host     : '127.0.0.1',
-user     : 'root', 
-password : 'root', 
-database : 'ghost',
-charset  : 'utf8'
+            host     : '127.0.0.1',
+            user     : 'root',
+            password : 'root',
+            database : 'ghost',
+            charset  : 'utf8'
            }
         },
         server: {
