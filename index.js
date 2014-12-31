@@ -8,9 +8,11 @@ var express,
     errors;
 
 // Make sure dependencies are installed and file system permissions are correct.
+//确定依赖的包都已经准确安装，以及文件系统的权限没有问题。
 require('./core/server/utils/startup-check').check();
 
 // Proceed with startup
+//启动
 express = require('express');
 ghost = require('./core');
 errors = require('./core/server/errors');
